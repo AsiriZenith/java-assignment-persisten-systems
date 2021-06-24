@@ -1,0 +1,10 @@
+1,Barfi,Romantic,Hindi,23/4/12, Ranbir Kapoor:Priyanka Chopra
+2,The Avengers,Action,English,4/5/12,Robert Downey Jr:Chris Evans:Scarlett Johansson:Samuel L. Jackson
+3,Three Idiots,Comedy,Hindi,6/4/12,Aamir Khan:Sharman Joshi,R.Madhavan,Kareena Kapoor
+4,Student of the Year,Romantice,Hindi,3/10/12,Alia Bhatt:Varun Dhawan:Sidharth Malhotra
+5,Talaash,Suspense,Hindi,12/12/10,Aamir Khan, Kareena Kapoor
+6,Madagaskar,Animated,english,4/5/12
+7,Bharatiya,Comedy,Marathi,5/6/12,Subodh Bhave:Makarand Anaspure:Kuldeep Pawar
+8,Me Shivajiraje Bhosale,Action,marathi,6/6/12,Mahesh Manjrekar:Sachin Khedekar:Priya Bapat
+9,Gabbar Singh,Action,Telgu,11/5/12,Pawan Kalyan:Shruti Haasan:Ali
+10,Business Man 2012,Telgu,12/1/12,Mahesh Babu:Sayaji Shinde:Shweta Bhardwaj
