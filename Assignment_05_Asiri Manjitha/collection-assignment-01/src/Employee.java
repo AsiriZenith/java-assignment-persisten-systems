@@ -1,13 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Employee {
 
-    private int empId;
+    private final int empId;
     private String name;
     private String contactNo;
     private String city;
     private String email;
-    private Vehicle vehicle;
+    private List<Vehicle> vehicles;
 
     public Employee(int empId, String name, String contactNo, String city, String email) {
         this.empId = empId;
@@ -17,22 +19,13 @@ public class Employee {
         this.email = email;
     }
 
-    public void setVehicleDetails() {
-        Scanner sc = new Scanner(System.in);
-        vehicle = new Vehicle(this.empId);
+    public int getEmpId() { return empId; }
 
-        System.out.print("Enter Vehicle Type: ");
-        vehicle.setType(sc.nextLine());
-
-        System.out.print("Enter Vehicle Color: ");
-        vehicle.setColor(sc.nextLine());
-    }
-
-    public boolean isAvailableVehicle() {
-        if (vehicle == null) {
-            return false;
+    public void setVehicleDetails(Vehicle vehicle) {
+        if (vehicles == null) {
+            vehicles = new ArrayList<Vehicle>();
         }
-        return true;
+        vehicles.add(vehicle);
     }
 
     @Override
@@ -43,6 +36,7 @@ public class Employee {
                 ", contactNo='" + contactNo + '\'' +
                 ", city='" + city + '\'' +
                 ", email='" + email + '\'' +
+                ", vehicle=" + vehicles +
                 '}';
     }
 }
