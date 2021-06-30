@@ -5,12 +5,12 @@ public class Movie {
     private int id;
     private String name;
     private String language;
-    private String releaseDate;
+    private Date releaseDate;
     private String director;
     private String producer;
     private String duration;
 
-    public Movie(int id, String name, String language, String releaseDate, String director, String producer, String duration) {
+    public Movie(int id, String name, String language, Date releaseDate, String director, String producer, String duration) {
         this.id = id;
         this.name = name;
         this.language = language;
@@ -26,6 +26,14 @@ public class Movie {
 
     public String getDirector() {
         return director;
+    }
+
+    public String getDuration() {
+        return duration;
+    }
+
+    public Date getReleaseDate() {
+        return releaseDate;
     }
 
     @Override
